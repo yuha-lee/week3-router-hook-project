@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd6ecbc-eebd-4737-b3bc-ccb29fba4283" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inwon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/who.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chef.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RecipeDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecipeDetail.js" afterDir="false" />
     </list>
@@ -33,11 +41,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sist38\WebstormProjects\week3-router-hook-project\public" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -76,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590798151831</updated>
-      <workItem from="1590798153710" duration="11490000" />
+      <workItem from="1590798153710" duration="15679000" />
+      <workItem from="1590818897719" duration="6152000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1590809507800</created>
@@ -85,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590809507801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1590810584146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590810584146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,10 +118,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="197" y="116" key="CommitChangelistDialog2" timestamp="1590809506656">
+    <state x="197" y="116" key="CommitChangelistDialog2" timestamp="1590810583395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="197" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590809506656" />
+    <state x="197" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590810583395" />
     <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1590804063246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,9 +146,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1459" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590802683432" />
-    <state x="194" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590810574761">
+    <state x="194" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590810591047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="194" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590810574761" />
+    <state x="194" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590810591047" />
+    <state x="324" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1590823878519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="324" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590823878519" />
   </component>
 </project>

@@ -66,7 +66,7 @@ export default function Recipe() {
                     <img src={r.poster} style={{"width" : "100%"}} />
                 </NavLink>
                 <div className="caption">
-                    <p style={{"fontSize" : "9pt"}}>{r.title}</p>
+                    <p style={{"fontSize" : "8pt"}}>{r.title.length > 30 ? r.title.substring(0, 30) + "..." : r.title}</p>
                     <sub style={{"color" : "gray"}}>{r.chef}</sub>
                 </div>
             </div>
