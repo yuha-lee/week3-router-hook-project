@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import {NavLink} from "react-router-dom";
 
 /*
     class Recipe
@@ -17,9 +18,9 @@ export default function Recipe() {
     const [total, setTotal] = useState(0);
 
     // 비동기화로 하기 위해서 async, await를 붙여줌
-    useEffect(async () => {
+    useEffect(() => {
         // 서버 연결 => 데이터 가져 옴 => setRecipe로 저장
-        await axios.get('http://localhost:3355/recipe', {
+        axios.get('http://localhost:3355/recipe', {
             params: {
                 page: page
             }
@@ -28,9 +29,9 @@ export default function Recipe() {
         });
     }, []);
 
-    useEffect(async () => {
+    useEffect(() => {
         // 서버 연결 => 데이터 가져 옴 => setRecipe로 저장
-        await axios.get('http://localhost:3355/recipe_total').then((result) => {
+        axios.get('http://localhost:3355/recipe_total').then((result) => {
             setTotal(result.data.total);
         });
     }, []);
@@ -61,7 +62,9 @@ export default function Recipe() {
     const html = recipe.map((r) =>
         <div className="col-md-4">
             <div className="thumbnail">
-                <img src={r.poster} style={{"width" : "100%"}} />
+                <NavLink to={"/recipe_detail/" + r.no}>
+                    <img src={r.poster} style={{"width" : "100%"}} />
+                </NavLink>
                 <div className="caption">
                     <p style={{"fontSize" : "9pt"}}>{r.title}</p>
                     <sub style={{"color" : "gray"}}>{r.chef}</sub>

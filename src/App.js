@@ -21,7 +21,7 @@ function App() {
         <div className={"jumbotron"}>
           <Switch>
             <Route exact path={"/"} component={Recipe}></Route>
-            <Route path={"/recipe_detail"} component={RecipeDetail}></Route>
+            <Route path={"/recipe_detail/:no"} component={RecipeDetail}></Route>
             <Route path={"/chef"} component={Chef}></Route>
             <Route path={"/chef_detail"} component={ChefDetail}></Route>
             <Route path={"/news"} component={RecipeNews}></Route>

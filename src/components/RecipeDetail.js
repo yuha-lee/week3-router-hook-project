@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
-export default function RecipeDetail() {
+export default function RecipeDetail(props) {
+    const {match} = props;
     return (
-        <div><h1>레시피 상세보기</h1></div>
+        <div><h1>레시피 상세보기: {match.params.no}</h1></div>
     )
 }
